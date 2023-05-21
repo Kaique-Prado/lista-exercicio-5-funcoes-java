@@ -12,7 +12,7 @@ public class Ex7 {
 
         System.out.println("O número "+ numero1 +" é:"+ validarNumero(numero1));
     }
-    private static String validarNumero (double numero1) {
+    public static String validarNumero (double numero1) {
         String valida;
         if(numero1 > 0 ) { 
             valida = "P";

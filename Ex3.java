@@ -13,7 +13,7 @@ public class Ex3 {
         System.out.printf("A temperatura em Celsius é: " + "%.2f" ,converterCelsius(fahrenheit));
     }
 
-    private static double converterCelsius(Double fahrenheit) {
+    public static double converterCelsius(Double fahrenheit) {
         double celsius = (fahrenheit - 32) /1.8;
         return celsius;
     }

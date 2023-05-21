@@ -18,7 +18,7 @@ public class Ex8 {
 
     }
 
-    private static double somaImposto (double custoItem, double taxaImposto ) {
+    public static double somaImposto (double custoItem, double taxaImposto ) {
         taxaImposto = taxaImposto / 100;
         double somaImposto = custoItem + (taxaImposto * custoItem); 
         return somaImposto;

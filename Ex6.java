@@ -23,7 +23,7 @@ public class Ex6 {
 
     }
 
-    private static double somarNumeros (double numero1, double numero2, double numero3) {
+    public static double somarNumeros (double numero1, double numero2, double numero3) {
         double somar = numero1 + numero2 + numero3;
         return somar;
     }

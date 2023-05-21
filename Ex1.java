@@ -19,7 +19,7 @@ public class Ex1 {
 
     }   
 
-    private static double calcularMedia (Double numero1,  Double numero2) {
+    public static double calcularMedia (Double numero1,  Double numero2) {
         double resultado = (numero1 + numero2) /2;
         return resultado;
     }

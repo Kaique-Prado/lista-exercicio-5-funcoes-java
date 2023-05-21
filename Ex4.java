@@ -24,17 +24,17 @@ public class Ex4 {
 
     }
 
-    private static double calcularMediaAritmetica(double numero1, double numero2, double numero3) {
+    public static double calcularMediaAritmetica(double numero1, double numero2, double numero3) {
         double media = (numero1 + numero2 + numero3) / 3;
         return media;
     }
 
-    private static double calcularMediaHarmonica( double numero1, double numero2, double numero3 ) {
+    public static double calcularMediaHarmonica( double numero1, double numero2, double numero3 ) {
         double media = 3/ (1/numero1) + (1/numero2) + (1/numero3);
         return media;
     }
 
-    private static double calcularMediaGeometrica (double numero1, double numero2, double numero3) {
+    public static double calcularMediaGeometrica (double numero1, double numero2, double numero3) {
         double media = Math.cbrt(numero1 * numero2 * numero3);
         return media;
     }

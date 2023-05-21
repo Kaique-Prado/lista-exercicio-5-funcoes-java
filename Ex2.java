@@ -13,7 +13,7 @@ public class Ex2 {
         System.out.println("Novo preço é: " + calcularAcrescimo(preco));
     }
 
-    private static double calcularAcrescimo (double preco) {
+    public static double calcularAcrescimo (double preco) {
         double acrescimo = preco * 0.1;
         double novopreco = preco + acrescimo;
         return novopreco;

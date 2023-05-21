@@ -15,7 +15,7 @@ public class Ex9 {
         System.out.println("Número invertido: "+ retornarInverso(numero));
     }
 
-    private static String retornarInverso (Integer numero) {
+    public static String retornarInverso (Integer numero) {
        String caractereNumero = numero.toString();
        String inverterNumero = "";
 
